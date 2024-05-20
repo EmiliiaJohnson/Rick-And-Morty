@@ -1,0 +1,30 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'Typewriter';
+  src: url(./fonts/Typewriter.ttf);
+}
+
+@font-face {
+  font-family: 'Typewriter-Bold';
+  src: url(./fonts/Typewriter-bold.ttf);
+}
+#app {
+  font-family: 'Typewriter', Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: var(--background-color);
+  color: #000;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  min-height: calc(100vh - 180px);
+}
+a {
+  font-size: 2em;
+  color: var(--base-color);
+  text-decoration: none;
+}
