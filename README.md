@@ -1,35 +1,18 @@
-# rick-and-morty-vue
+## Задача
 
-This template should help get you started developing with Vue 3 in Vite.
+Создать страницу, на которой можно будет просматривать персонажей из Рика и Морти с помощью открытого api Формальные требования к выполнению задачи
 
-## Recommended IDE Setup
+- Использовать vue3 или vue2, composition api
+- Персонажей выводить в виде карточек, как в источнике. Ссылки на карточке заменить на обычный текст
+- Реализовать пагинацию с помощью api
+- Реализовать фильтрацию по полям "name" и "status" с помощью api. Фильтрация должна применяться по
+  нажатию на кнопку "Применить"
+- Для элементов пагинации и фильтрации можно использовать обычные html теги (input, select) без
+  стилизации
+- Код разместить в репозитории github
+- Готовое приложение разместить на github pages или аналогичном сервисе
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Источник данных
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+• Сайт https://rickandmortyapi.com/
+• Документация размещена на сайте
